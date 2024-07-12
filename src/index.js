@@ -13,5 +13,3 @@ root.render(
     </StateProvider>
   </React.StrictMode>
 );
-
-// 11:26
