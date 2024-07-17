@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import Login from "./components/Login";
+import { useStateProvider } from "./utils/StateProvider"
 
 export default function App() {
   const [{token}, dispatch] = useStateProvider()
