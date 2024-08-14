@@ -2,7 +2,13 @@ import React from "react";
 import styled from "styled-components";
 export default function Sidebar() {
     return (
-        <Container>Sidebar</Container>
+        <Container>
+            <div className="top__links">
+                <div className="logo">
+                    <img src="" />
+                </div>
+            </div>
+        </Container>
     )
 }
 
